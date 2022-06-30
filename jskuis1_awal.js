@@ -44,6 +44,6 @@ function home_klik(){
   var home_klik = document.getElementsByClassName("utama")
   var tanya = confirm("Apakah Anda yakin ingin meninggalkan halaman?");
     if (tanya) {
-        window.location = "halaman awal.html";
+        window.location = "../index.html";
     }
 }
